@@ -85,6 +85,7 @@ app.get('/api/feedback', async (req, res) => {
 app.post('/api/feedback', postFeedBack);
 
 app.get('/getConnected', (req, res) => {
+  console.log("1233")
    res.send({message:"connected"});
 });
 
