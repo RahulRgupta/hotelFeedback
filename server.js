@@ -84,7 +84,7 @@ app.get('/api/feedback', async (req, res) => {
 // Routes
 app.post('/api/feedback', postFeedBack);
 
-app.get('/', (req, res) => {
+app.get('/get', (req, res) => {
 
   return res.send("connected");
 });
