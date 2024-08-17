@@ -8,8 +8,8 @@ require('dotenv').config();
 
 // Initialize Express app
 const app = express();
-const port = process.env.PORT || 8000;
-
+//const port = process.env.PORT || 8000;
+const port =8000
 const corsConfig ={
   origin:"*",
   Credential:true,
